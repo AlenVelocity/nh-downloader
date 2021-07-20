@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
-import { Doujin } from 'nhentai-pdf/dist'
+import { Doujin, Document } from 'nhentai-pdf/dist'
 import { readFileSync } from 'fs'
 const DoujinApi = async (req: NextApiRequest, res: NextApiResponse) => {
     if (typeof req.query.code !== 'string') return void res.send(false)
