@@ -62,7 +62,7 @@ const Home = () => {
           onSubmit={e => {
             e.preventDefault();
             Router.push({
-              pathname: '/api/doujin',
+              pathname: '/doujin',
               query: { code: doujin },
             })
           }}>

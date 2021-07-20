@@ -3,6 +3,11 @@ import theme from './theme'
 const { colors } = theme;
 
 const mixins = {
+  flexLeft: css`
+    display: flex;
+    justify-content: left;
+    align-items: left;
+  `,
   flexCenter: css`
     display: flex;
     justify-content: center;

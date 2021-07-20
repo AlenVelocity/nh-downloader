@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@types/styled-components": "^5.1.11",
+    "axios": "^0.21.1",
     "next": "11.0.1",
     "nhentai-pdf": "^1.0.0",
     "react": "17.0.2",
