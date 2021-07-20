@@ -23,6 +23,7 @@ const UserInfoStyles = styled.div`
     font-size: 2.5rem;
     margin-bottom: 10px;
     color: ${colors.offWhite};
+    width: 500px;
     ${media.bp400`
       font-size: 2rem;
     `};
